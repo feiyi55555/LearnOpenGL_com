@@ -117,14 +117,17 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="colorfulTriAngles.cpp" />
+    <ClCompile Include="shaderLib\CShader.cpp" />
     <ClCompile Include="shinningTriAngles.cpp" />
     <ClCompile Include="common.cpp" />
     <ClCompile Include="drawTriAngles.cpp" />
     <ClCompile Include="glad.c" />
     <ClCompile Include="testInclude.cpp" />
+    <ClCompile Include="testShaderClass.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="common.h" />
+    <ClInclude Include="shaderLib\CShader.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

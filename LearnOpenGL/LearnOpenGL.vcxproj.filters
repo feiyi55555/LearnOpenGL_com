@@ -22,6 +22,12 @@
     <Filter Include="源文件\common">
       <UniqueIdentifier>{8709c649-16a3-4b75-8751-1c8b63c2a8ff}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\shaderLib">
+      <UniqueIdentifier>{d7be186d-a970-4318-82ff-62d0119384be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Texture">
+      <UniqueIdentifier>{edab5d93-df58-4394-8cf4-abfda3ed5db5}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="testInclude.cpp">
@@ -42,10 +48,19 @@
     <ClCompile Include="colorfulTriAngles.cpp">
       <Filter>源文件\Test</Filter>
     </ClCompile>
+    <ClCompile Include="shaderLib\CShader.cpp">
+      <Filter>头文件\shaderLib</Filter>
+    </ClCompile>
+    <ClCompile Include="testShaderClass.cpp">
+      <Filter>源文件\Test</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="common.h">
       <Filter>头文件\common</Filter>
+    </ClInclude>
+    <ClInclude Include="shaderLib\CShader.h">
+      <Filter>头文件\shaderLib</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

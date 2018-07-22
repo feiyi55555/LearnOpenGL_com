@@ -1,3 +1,33 @@
-﻿  colorfulTriAngles.cpp
-  LearnOpenGL.vcxproj -> D:\NetEase\C\LearnOpenGL\LearnOpenGL_com\Debug\LearnOpenGL.exe
-  LearnOpenGL.vcxproj -> D:\NetEase\C\LearnOpenGL\LearnOpenGL_com\Debug\LearnOpenGL.pdb (Partial PDB)
+﻿生成启动时间为 2018/7/22 16:31:06。
+     1>项目“D:\OpenGLBeginning\LearnOpenGL_com\LearnOpenGL\LearnOpenGL.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt colorfulTriAngles.cpp shaderLib\CShader.cpp shinningTriAngles.cpp common.cpp drawTriAngles.cpp testInclude.cpp testShaderClass.cpp
+         testShaderClass.cpp
+         testInclude.cpp
+         drawTriAngles.cpp
+         common.cpp
+         shinningTriAngles.cpp
+     1>d:\openglbeginning\learnopengl_com\learnopengl\shinningtriangles.cpp(139): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+         CShader.cpp
+     1>d:\openglbeginning\learnopengl_com\learnopengl\shaderlib\cshader.cpp(38): warning C4101: “infoLog”: 未引用的局部变量
+     1>d:\openglbeginning\learnopengl_com\learnopengl\shaderlib\cshader.cpp(37): warning C4101: “success”: 未引用的局部变量
+         colorfulTriAngles.cpp
+         正在生成代码...
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:prompt glad.c
+         glad.c
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\OpenGLBeginning\LearnOpenGL_com\Debug\LearnOpenGL.exe" /INCREMENTAL /NOLOGO glfw3.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FASTLINK /PDB:"D:\OpenGLBeginning\LearnOpenGL_com\Debug\LearnOpenGL.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\OpenGLBeginning\LearnOpenGL_com\Debug\LearnOpenGL.lib" /MACHINE:X86 Debug\colorfulTriAngles.obj
+         Debug\CShader.obj
+         Debug\shinningTriAngles.obj
+         Debug\common.obj
+         Debug\drawTriAngles.obj
+         Debug\glad.obj
+         Debug\testInclude.obj
+         Debug\testShaderClass.obj
+     1>LINK : warning LNK4098: 默认库“MSVCRT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+         LearnOpenGL.vcxproj -> D:\OpenGLBeginning\LearnOpenGL_com\Debug\LearnOpenGL.exe
+     1>已完成生成项目“D:\OpenGLBeginning\LearnOpenGL_com\LearnOpenGL\LearnOpenGL.vcxproj”(Rebuild 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:05.21
