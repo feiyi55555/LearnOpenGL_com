@@ -16,13 +16,36 @@
     <Filter Include="源文件\Test">
       <UniqueIdentifier>{1eb48b66-9481-4de6-8488-9536f28d7fd2}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\common">
+      <UniqueIdentifier>{83f20afb-3d10-459c-aa96-7f6c41058e3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\common">
+      <UniqueIdentifier>{8709c649-16a3-4b75-8751-1c8b63c2a8ff}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\glad\src\glad.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="testInclude.cpp">
       <Filter>源文件\Test</Filter>
     </ClCompile>
+    <ClCompile Include="glad.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="common.cpp">
+      <Filter>源文件\common</Filter>
+    </ClCompile>
+    <ClCompile Include="drawTriAngles.cpp">
+      <Filter>源文件\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="shinningTriAngles.cpp">
+      <Filter>源文件\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="colorfulTriAngles.cpp">
+      <Filter>源文件\Test</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="common.h">
+      <Filter>头文件\common</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

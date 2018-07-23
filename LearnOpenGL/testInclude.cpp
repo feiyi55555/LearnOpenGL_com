@@ -1,19 +1,9 @@
-//#include "stdlib.h"
-//#include "stdio.h"
+#include "common.h"
 
-#include <iostream>
+//void processInput(GLFWwindow *window);
+//void framebuffer_size_callback(GLFWwindow* window, int width, int height);
 
-// 必须先引入
-#include <glad/glad.h>
-#include <GLFW/glfw3.h>
-
-void processInput(GLFWwindow *window);
-void framebuffer_size_callback(GLFWwindow* window, int width, int height);
-
-const unsigned int SCR_WIDTH = 800;
-const unsigned int SCR_HEIGHT = 600;
-
-int main() 
+int main0() 
 {
   glfwInit();
   glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 3);
@@ -40,6 +30,7 @@ int main()
     return -1;
   }
 
+
   while (!glfwWindowShouldClose(window))
   {
     processInput(window);
@@ -51,21 +42,7 @@ int main()
     glfwPollEvents();
   }
 
+
   glfwTerminate();
   return 0;
-}
-
-// 检测用户输入
-void processInput(GLFWwindow *window)
-{
-  if (glfwGetKey(window, GLFW_KEY_ESCAPE) == GLFW_PRESS)
-  {
-    glfwSetWindowShouldClose(window, true);
-  }
-}
-
-void framebuffer_size_callback(GLFWwindow* window, int width, int height)
-{
-  glViewport(0, 0, width, height);
-  std::cout << "width:" << width << ",height" << height << std::endl;
 }

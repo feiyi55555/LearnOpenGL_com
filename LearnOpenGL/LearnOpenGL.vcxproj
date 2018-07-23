@@ -116,8 +116,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\glad\src\glad.c" />
+    <ClCompile Include="colorfulTriAngles.cpp" />
+    <ClCompile Include="shinningTriAngles.cpp" />
+    <ClCompile Include="common.cpp" />
+    <ClCompile Include="drawTriAngles.cpp" />
+    <ClCompile Include="glad.c" />
     <ClCompile Include="testInclude.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="common.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
